@@ -1,7 +1,11 @@
-export type PromptData = {
-    brandName: string;
-    primaryColor: string;
-    layoutStyle: 'grid' | 'list' | 'hero';
-    components: string[];
-  };
+export type StudentDetails = {
+  name: string;
+  age: number;
+  gender: 'male' | 'female' | 'other';
+  DateOfBirth: string;
+  BirthTime: string;
+  BirthCity: string;
+  BirthState: string;
+  BirthCountry: string;
+};
   
